@@ -6,15 +6,19 @@ public class Mage extends Hero {
     }
 
     @Override
-    public void takeDamage() {
+    public void doTakeDamage() {
         life--;
         energy++ ;
 
     }
 
+
+
     @Override
-    public void attack() {
+    public void doAttack() {
         energy-= 3 ;
 
     }
+
+
 }
